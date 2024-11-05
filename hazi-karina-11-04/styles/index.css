@@ -56,17 +56,17 @@ nav a {
 .container2 {
     display: flex;
     justify-content: center;
-    align-items: center; /* Középre igazítja függőlegesen */
+    align-items: center;
     height: 100%;
     padding: 20px 0;
   }
   
   .grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Három egyenlő oszlop */
+    grid-template-columns: repeat(3, 1fr);
     gap: 15px;
     width: 100%;
-    max-width: 1200px; /* Maximális szélesség */
+    max-width: 1200px;
     padding: 20px;
     justify-content: center;
   }
@@ -97,10 +97,10 @@ nav a {
     margin-top: 10px;
   }
   
-  /* Rugalmas a mobil eszközökhöz */
+  
   @media (max-width: 768px) {
     .grid {
-      grid-template-columns: 1fr; /* Egy oszlopos elrendezés mobilon */
+      grid-template-columns: 1fr; 
     }
   }
 
