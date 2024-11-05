@@ -1,0 +1,113 @@
+body { 
+    font-family: 'Roboto', sans-serif; 
+    margin: 0; 
+    padding: 0; 
+}
+
+header { 
+    background: #6f4c3e; 
+    color: white; 
+    padding: 15px; 
+    text-align: center; }
+
+nav { 
+    display: flex; 
+    justify-content: center; 
+    background: #d9c5b0; 
+    padding: 10px; 
+}
+
+nav a { 
+    margin: 0 15px; 
+    text-decoration: none; 
+    color: #6f4c3e; 
+}
+
+.container { 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+    gap: 20px; 
+}
+
+.coffee { 
+    border: 1px solid #d9c5b0; 
+    border-radius: 5px; padding: 10px; 
+    text-align: center; background: #f9f9f9; 
+}
+
+.coffee-description h2{
+    text-align: center;
+}
+
+.coffee-description p{
+    text-align: center;
+    padding: 30px;
+}
+
+.coffee img { 
+    width: 100%; 
+    height: auto; 
+    border-radius: 5px; 
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Középre igazítja függőlegesen */
+    height: 100%;
+    padding: 20px 0;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Három egyenlő oszlop */
+    gap: 15px;
+    width: 100%;
+    max-width: 1200px; /* Maximális szélesség */
+    padding: 20px;
+    justify-content: center;
+  }
+  
+  .grid-item {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .grid-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    max-width: 150px;
+  }
+  
+  .grid-item p {
+    font-size: 16px;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  /* Rugalmas a mobil eszközökhöz */
+  @media (max-width: 768px) {
+    .grid {
+      grid-template-columns: 1fr; /* Egy oszlopos elrendezés mobilon */
+    }
+  }
+
+footer { 
+    text-align: center; 
+    padding: 10px; 
+    background: hsl(17, 28%, 34%); 
+    color: white; 
+}
+
