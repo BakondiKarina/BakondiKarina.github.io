@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Szolgáltatásaink</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+</head>
+<body>
+
+     <!-- Navbar Section -->
+     <nav class="navbar">
+        <div class="navbar__container">
+          <a href="index.html" id="navbar__logo">
+              <img src="img/GYORI CAR SOLUTION FEHÉR.png" alt="gyoricar" class="navbar__logo-img">Győri Car Solution
+          </a>
+          <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span> <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          <ul class="navbar__menu">
+            <li class="navbar__item">
+              <a href="index.html" class="navbar__links" id="home-page">Főoldal</a>
+            </li>
+            <li class="navbar__item">
+              <a href="about.html" class="navbar__links" id="about-page">Rólunk</a>
+            </li>
+            <li class="navbar__item">
+              <a href="service.html" class="navbar__links" id="services-page"
+                >Szolgáltatások</a
+              >
+            </li>
+            <li class="navbar__btn">
+              <a href="https://www.facebook.com/profile.php?id=61561477081181" class="button" id="signup">Facebook</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    
+     <!-- Services Section -->
+     <div class="services" id="services">
+      <h1>Szolgáltatásaink</h1>
+      <div class="services__wrapper">
+          <div class="services__card" data-modal="1">
+              <h2>Általános szervíz</h2>
+              <p>Bízd ránk autód szervizelését, hogy autód mindig indulásra kész legyen!</p>
+              <div class="services__btn"><button class="showModalBtn">Bővebben</button></div>
+          </div>
+          <div class="services__card" data-modal="2">
+              <h2>Dióhéjas tisztítás</h2>
+              <p>Innovatív szívórendszer tisztító eljárás</p>
+              <div class="services__btn"><button class="showModalBtn">Bővebben</button></div>
+          </div>
+          <div class="services__card" data-modal="3">
+              <h2>Motor és váltó felújítás</h2>
+              <p>Ha nagy a baj, akkor is minket keress!</p>
+              <div class="services__btn"><button class="showModalBtn">Bővebben</button></div>
+          </div>
+          <div class="services__card" data-modal="4">
+              <h2>Céges flotta javítás</h2>
+              <p>Kisebb céges flották szervizelését vállaljuk</p>
+              <div class="services__btn"><button class="showModalBtn">Bővebben</button></div>
+          </div>
+      </div>
+  </div>
+
+      <!-- Modal -->
+      <div id="serviceModal" class="modal">
+        <div class="modal-content">
+            <!-- Bezáró gomb -->
+            <span class="closeBtn">&times;</span>
+            <h2 id="modalTitle">Szolgáltatás neve</h2>
+            <p id="modalText">Szolgáltatás leírása.</p>
+            <div id="modalImages">
+                <img id="modalImage1" src="image1.jpg" alt="Image 1">
+                <img id="modalImage2" src="image2.jpg" alt="Image 2">
+                <img id="modalImage3" src="image3.jpg" alt="Image 3">
+            </div>
+        </div>
+    </div>
+      
+      <!-- Footer Section -->
+    <div class="footer__container">
+      <div class="footer__links">
+        <div class="footer__link--wrapper">
+            <div class="footer__link--wrapper">
+                <div id="footer__link--items" class="footer__link--items">
+                  <h2>Social Media</h2>
+                  <a href="https://www.facebook.com/profile.php?id=61561477081181">Facebook</a>
+                </div>
+            </div>
+          <div class="footer__link--items">
+            <h2>Kapcsolat</h2>
+            <a href="/">Tel: 70/514-8524</a> <a href="/">E-mail: gyoricarsolution@gmail.com</a>
+            <a href="/">Hely: Eger</a>
+          </div>
+        </div>
+        
+      </div>
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="index.html" id="footer__logo">
+                <img src="img/GYORI CAR SOLUTION FEHÉR.png" alt="Győri Car Solution Logo" class="footer__logo-img">
+            </a>
+          </div>
+          <p class="website__rights">© Győri Car 2024. All rights reserved</p>
+          <div class="social__icons">
+            <a href="https://www.facebook.com/profile.php?id=61561477081181" class="social__icon--link" target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+
+      <script src="script.js"></script>
+</body>
+</html>
