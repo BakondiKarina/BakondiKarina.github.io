@@ -18,7 +18,7 @@ const highlightMenu = () => {
   const servicesMenu = document.querySelector('#services-page');
   let scrollPos = window.scrollY;
   // console.log(scrollPos);
-
+}
 
 //  Close mobile Menu when clicking on a menu item
 const hideMobileMenu = () => {
